@@ -16,8 +16,8 @@
     @if (auth()->user()->role == 'staff')
         <li class="nav-item {{ request()->routeIs('dashboard.index') ? 'active' : '' }}">
             <a class="nav-link" href="{{ route('dashboard.index') }}">
-                <i class="fas fa-fw fa-tachometer-alt"></i>
-                <span>Dashboard</span>
+                <i class="fas fa-fw fa-people-group"></i>
+                <span>Antrian</span>
             </a>
         </li>
 

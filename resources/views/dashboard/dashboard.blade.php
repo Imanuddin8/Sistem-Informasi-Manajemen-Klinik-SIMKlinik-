@@ -2,7 +2,7 @@
 
 @section('konten')
 <div class="mb-4">
-    <h1 class="h2 mb-0 text-gray-800 mb-1">Dashboard</h1>
+    <h1 class="h2 mb-0 text-gray-800 mb-1">Antrian</h1>
     <p>Selamat Datang {{auth()->user()->name}}, Anda login sebagai {{auth()->user()->role}}</p>
 </div>
 <div class="mb-3">
